@@ -1,0 +1,46 @@
+/*ul{
+    padding: 15px;
+    margin: 3px;
+    background-color: brown;
+    list-style: circle;
+}
+
+ul li{
+    padding: 5px;
+    margin: 5px 15px;
+    background-color: azure;
+}
+ol{
+    padding: 15px;
+    margin: 3px;
+    background-color: rgba(84, 139, 221, 0.589);
+    list-style: georgian;
+}
+ol li{
+    padding: 5px;
+    margin: 5px 15px;
+    background-color: blueviolet;
+} ||*/
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+li{
+    float: left;
+    width: auto;
+}
+a{
+    background-color: aqua;
+    color: blue;
+    display: block;
+    font: bold 15px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+}
+li:hover a{
+    background-color: rgb(211, 199, 35);
+}
